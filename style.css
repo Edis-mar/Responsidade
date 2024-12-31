@@ -11,6 +11,7 @@
 body {
         font-size: 100%;
         list-style-type: none;
+        width: 105vw;
 }    
 header{
     display: flex;
@@ -35,7 +36,7 @@ header{
 line-height: 5vh;
 }
 h1{
-    font-size: 3.4rem;
+    font-size: 4rem;
     font-weight: 800vw;
 }
 h2{
@@ -46,18 +47,18 @@ h2{
 button{
     background-color: #F84646;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-weight: 500vw;
-    padding: 15px 50px;
-    border-radius:8px;
+    padding: 0.9rem 3.9rem;
+    border-radius: 0.5rem;
     border: none;
     cursor: pointer;
 }
 #qualities{
     background-color:#F84646;
     color: #fff;
+    
 }
-
 #qualities-title{
     display:flex;
     flex-direction: column;
@@ -84,6 +85,54 @@ button{
     font-weight: 700;
     line-height: 6vh;
 }
+#articles{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 6%;
+    gap: 10rem;
+    align-items:baseline;
+}
+#g1{
+    display: flex;
+    justify-content:space-evenly;
+}
+#g1-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-right: 4rem ;
+}
+#g1-title{
+    color:#2E2E2E;
+   
+}
+
+#g1-p{
+    line-height: 2rem;
+    color:#808080;
+}
+#g2{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row-reverse;
+}
+.g2-title{
+    color:#2E2E2E;
+
+}
+#g2-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-left: 9rem;
+}
+#g2-p{
+    line-height: 2rem;
+    color:#808080;
+    font-size: 1rem;
+}
 #contatos{
     display: flex;
     flex-direction: column;
@@ -92,6 +141,15 @@ button{
     padding-bottom: 8%;
     flex-wrap:wrap;
 }
+#p-contatos{
+    margin-top: 0.9rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 #botao-contatos{ 
-    margin-top: 20px;
+    margin-top: 2rem;
+    width: 20vw;
+    height: 10vh;
+    font-size: 1.5rem;
+    padding: 0.9rem 2rem;
 }
