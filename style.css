@@ -1,51 +1,97 @@
-*{
-    font-family: "Manrope", serif;
-    box-sizing: border-box;
+*,
+*:after,
+*:before {
+        font-family: "Manrope", serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 16px;
 }
 body {
-   margin: 0%;
+        font-size: 100%;
+        list-style-type: none;
 }    
 header{
     display: flex;
-    flex-direction:column;
-    justify-content: space-around;
-    border: 1px solid black;
+    justify-content: flex-start;
+    align-items: center;
     padding: 40px 120px;
-    padding-left: 80px;
-    width: 1440px;
-    height: 754px;
+    width: 105vw;
+    height: 110vh;
     background-image: url(/Assets/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #presentation{
-    top: 50%;
+    top:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+#presentation-text{
+line-height: 5vh;
 }
 h1{
-    font-size: 55px;
-    font-weight: 800;
+    font-size: 3.4rem;
+    font-weight: 800vw;
 }
 h2{
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 3rem;
+    font-weight: 800vw;
     margin: 0;
 }
 button{
     background-color: #F84646;
     color: #fff;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 500vw;
     padding: 15px 50px;
     border-radius:8px;
     border: none;
     cursor: pointer;
 }
+#qualities{
+    background-color:#F84646;
+    color: #fff;
+}
+
+#qualities-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 6%;
+}
+#qualities-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#qualities-list{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 6%;
+    padding-bottom: 8%;
+}
+.qualities-img{
+    margin: 0 2.5rem 0 2.5rem;
+}
+.q-list-text{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 6vh;
+}
 #contatos{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 7%;
+    padding-bottom: 8%;
     flex-wrap:wrap;
 }
-#botao-contatos{
+#botao-contatos{ 
     margin-top: 20px;
 }
