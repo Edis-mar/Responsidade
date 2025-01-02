@@ -153,3 +153,34 @@ button{
     font-size: 1.5rem;
     padding: 0.9rem 2rem;
 }
+footer{
+    background-color: #F84646;
+    color: #fff;
+}
+#footer-list{
+    display: flex;
+    justify-content:center ;
+    gap: 5rem;
+    text-align: left;
+    padding: 7rem 12rem 0 10rem;
+}
+li{
+    list-style: none;
+    margin-bottom: 1.5rem;
+    font-weight:300 ;
+}
+.footer-list-title {
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+#footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8.5rem;
+    padding-left: 9rem;
+    padding-right: 8rem;
+}
+#icons-footer{
+    display: flex;
+    gap: 1rem;
+}
