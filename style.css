@@ -37,11 +37,11 @@ line-height: 5vh;
 }
 h1{
     font-size: 4rem;
-    font-weight: 800vw;
+    font-weight: 800;
 }
 h2{
     font-size: 3rem;
-    font-weight: 800vw;
+    font-weight: 800;
     margin: 0;
 }
 button{
@@ -174,6 +174,9 @@ button{
     font-size: 1.5rem;
     padding: 0.9rem 2rem;
 }
+#companies-section{
+    background-color: #F4F5F7;
+}
 #companies-text{
     display: flex;
     flex-direction: column;
@@ -181,7 +184,36 @@ button{
 }
 #companies{
     display: grid;
-    grid-template-columns:repeat(5 1fr);
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+#companie-1{
+    grid-area: 3 / 1;
+}
+#companie-2{
+    grid-area: 2/ 2;
+}
+#companie-3{ 
+    grid-area:3 / 2 ;
+}
+#companie-4{
+    grid-area:3/3 ;
+}
+#companie-5{
+    grid-area: 2/3;
+}
+#companie-6{
+    grid-area:1/3 ; 
+}
+#companie-7{
+    grid-area:3/4 ;
+}
+#companie-8{
+    grid-area: 2/4;
+}
+#companie-9{
+    grid-area: 3/5; 
 }
 footer{
     background-color: #F84646;
