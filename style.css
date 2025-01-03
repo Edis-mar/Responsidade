@@ -54,6 +54,27 @@ button{
     border: none;
     cursor: pointer;
 }
+#analisy-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7rem 4rem;
+}
+#analisy-p{
+    line-height: 9vh;
+    font-size: 1.4rem;
+    text-align: center;
+}
+#analisy-title{
+    margin-bottom: 3rem;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7rem 1rem;
+    text-align: center;
+    margin-bottom: 10rem;
+}
 #qualities{
     background-color:#F84646;
     color: #fff;
@@ -152,6 +173,15 @@ button{
     height: 10vh;
     font-size: 1.5rem;
     padding: 0.9rem 2rem;
+}
+#companies-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#companies{
+    display: grid;
+    grid-template-columns:repeat(5 1fr);
 }
 footer{
     background-color: #F84646;
