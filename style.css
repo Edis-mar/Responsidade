@@ -11,14 +11,12 @@
 body {
         font-size: 100%;
         list-style-type: none;
-        width: 105vw;
 }    
 header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 40px 120px;
-    width: 105vw;
     height: 110vh;
     background-image: url(/Assets/Background.svg);
     background-repeat: no-repeat;
@@ -36,7 +34,7 @@ header{
 line-height: 5vh;
 }
 h1{
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 h2{
@@ -48,7 +46,6 @@ button{
     background-color: #F84646;
     color: #fff;
     font-size: 0.9rem;
-    font-weight: 500vw;
     padding: 0.9rem 3.9rem;
     border-radius: 0.5rem;
     border: none;
@@ -76,9 +73,10 @@ button{
     margin-bottom: 10rem;
 }
 #qualities{
+    display: flex;
+    flex-direction: column;
     background-color:#F84646;
     color: #fff;
-    
 }
 #qualities-title{
     display:flex;
@@ -104,7 +102,7 @@ button{
 .q-list-text{
     font-size: 1.2rem;
     font-weight: 700;
-    line-height: 6vh;
+    line-height: 4vh;
 }
 #articles{
     display: flex;
@@ -112,10 +110,17 @@ button{
     padding: 10% 6%;
     gap: 10rem;
     align-items:baseline;
+    flex-wrap: wrap;
 }
-#g1{
+#articles > :first-child {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+#articles > :last-child {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row-reverse;
 }
 #g1-text{
     display: flex;
@@ -133,11 +138,6 @@ button{
     line-height: 2rem;
     color:#808080;
 }
-#g2{
-    display: flex;
-    justify-content:space-evenly;
-    flex-direction: row-reverse;
-}
 .g2-title{
     color:#2E2E2E;
 
@@ -147,7 +147,7 @@ button{
     flex-direction: column;
     align-items: flex-start;
     gap: 3rem;
-    margin-left: 9rem;
+    margin-left:4rem;
 }
 #g2-p{
     line-height: 2rem;
@@ -268,4 +268,10 @@ li{
 #icons-footer{
     display: flex;
     gap: 1rem;
+}
+@media only screen and (max-width 767px) {
+
+
+@media only screen and (min-width 768px) and (max-width 1023) {
+    
 }
